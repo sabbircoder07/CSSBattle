@@ -1,0 +1,41 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #0b2429;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 100px;
+  height: 100px;
+  background: #f3ac3c;
+  position: absolute;
+  top: 135px;
+  left: 150px;
+  transform: rotate(45deg);
+}
+
+.design-two {
+  width: 71px;
+  height: 70px;
+  background: #998235;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  transform: translateX(-100%) skewY(-45deg);
+}
+
+.design-three {
+  width: 71px;
+  height: 70px;
+  background: #1a4341;
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  transform: translateX(100%) skewY(45deg);
+}
