@@ -1,0 +1,41 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part,
+.design-one,
+.design-two {
+  width: 80px;
+  height: 80px;
+  border: 20px solid #060f55;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.main-part {
+  top: 40px;
+  left: 40px;
+  transform: rotate(315deg);
+}
+
+.design-one {
+  top: 122px;
+  left: 122px;
+  transform: rotate(5 deg);
+}
+
+.design-two {
+  top: 121px;
+  left: -20px;
+  transform: rotate(180deg);
+}
