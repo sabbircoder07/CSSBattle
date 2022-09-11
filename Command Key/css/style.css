@@ -1,0 +1,65 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 10px solid #5dbcf9;
+  position: absolute;
+  top: 115px;
+  left: 165px;
+}
+
+.design-one {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 10px solid #5dbcf9;
+  border-radius: 50% 50% 10% 50%;
+  position: absolute;
+  top: -70px;
+  left: -70px;
+}
+
+.design-two {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 10px solid #5dbcf9;
+  border-radius: 50% 10% 50% 50%;
+  position: absolute;
+  top: 49px;
+  left: -70px;
+}
+
+.design-three {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 10px solid #5dbcf9;
+  border-radius: 10% 50% 50% 50%;
+  position: absolute;
+  top: 49px;
+  left: 50px;
+}
+
+.design-four {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 10px solid #5dbcf9;
+  border-radius: 50% 50% 50% 10%;
+  position: absolute;
+  top: -70px;
+  left: 50px;
+}
