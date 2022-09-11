@@ -1,0 +1,125 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 170px;
+  height: 170px;
+  box-shadow: inset 0 0 0 10px #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+  left: 115px;
+  overflow: hidden;
+}
+
+.design-one-extent {
+  width: 100px;
+  height: 100px;
+  background: #6592cf;
+  border: 10px solid #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 125px;
+  left: 25px;
+}
+
+.cercle-design {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(
+    #243d83,
+    #243d83 5px,
+    #6592cf 5px,
+    #6592cf 15px,
+    #243d83 15px
+  );
+  border-radius: 50%;
+}
+
+.design-two {
+  position: absolute;
+  top: 55px;
+  left: 175px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 170px;
+  height: 170px;
+  box-shadow: inset 0 0 0 10px #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+  left: 115px;
+  overflow: hidden;
+}
+
+.design-one-extent {
+  width: 100px;
+  height: 100px;
+  background: #6592cf;
+  border: 10px solid #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 125px;
+  left: 25px;
+}
+
+.cercle-design {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(
+    #243d83,
+    #243d83 5px,
+    #6592cf 5px,
+    #6592cf 15px,
+    #243d83 15px
+  );
+  border-radius: 50%;
+  position: absolute;
+}
+
+.design-two {
+  top: 55px;
+  left: 175px;
+}
+
+.design-three {
+  top: 165px;
+  left: 105px;
+}
+
+.design-four {
+  top: 95px;
+  left: 105px;
+}
+
+.design-five {
+  top: 165px;
+  left: 245px;
+}
+
+.design-six {
+  top: 95px;
+  left: 245px;
+}
