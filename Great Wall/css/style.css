@@ -1,0 +1,88 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #4f77ff;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 200px;
+  height: 200px;
+  background: #191919;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  overflow: hidden;
+}
+
+.design-two {
+  width: 40px;
+  height: 40px;
+  background: #f9e492;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 140px;
+}
+
+.design-three {
+  width: 100px;
+  height: 16px;
+  background: #f9e492;
+  position: absolute;
+  top: 122px;
+  left: 0px;
+  -webkit-box-reflect: below 36px;
+}
+
+.design-four {
+  width: 100px;
+  height: 16px;
+  background: #f9e492;
+  position: absolute;
+  top: 148px;
+  left: 0px;
+}
+
+.design-five {
+  width: 20px;
+  height: 16px;
+  background: #d6b73f;
+  position: absolute;
+  top: 115px;
+  left: 100px;
+  transform: skewY(-33deg);
+  -webkit-box-reflect: below 36px;
+}
+.design-six {
+  width: 20px;
+  height: 16px;
+  background: #d6b73f;
+  position: absolute;
+  top: 141px;
+  left: 100px;
+  transform: skewY(-33deg);
+}
+.design-seven {
+  width: 100px;
+  height: 16px;
+  background: #f9e492;
+  position: absolute;
+  top: 109px;
+  left: 119px;
+  -webkit-box-reflect: below 36px;
+}
+.design-eight {
+  width: 100px;
+  height: 16px;
+  background: #f9e492;
+  position: absolute;
+  top: 135px;
+  left: 119px;
+}
