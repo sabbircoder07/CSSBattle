@@ -1,0 +1,40 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #0b2429;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one,
+.design-two,
+.design-three {
+  width: 150px;
+  height: 150px;
+  background: #f3ac3c;
+  border-radius: 65% 0% 70% 0%;
+  position: absolute;
+}
+
+.design-one {
+  left: 175px;
+  top: 75px;
+}
+
+.design-two {
+  background: #998235;
+  left: 125px;
+  top: 75px;
+  z-index: -1;
+}
+
+.design-three {
+  background: #1a4341;
+  left: 75px;
+  top: 74px;
+  z-index: -2;
+}
