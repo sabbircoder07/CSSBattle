@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #293462;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 50px;
+  height: 140px;
+  background: #fe5f55;
+  border-radius: 0 40px 0 0;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  -webkit-box-reflect: right 0px;
+}
+.design-two {
+  width: 30px;
+  height: 30px;
+  background: #293462;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  left: 165px;
+  -webkit-box-reflect: right 10px;
+}
+
+.design-three {
+  width: 50px;
+  height: 40px;
+  background: #293462;
+  border-radius: 0 45px 0 0;
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  -webkit-box-reflect: right 0px;
+}
