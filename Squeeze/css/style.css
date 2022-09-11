@@ -1,0 +1,65 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one,
+.design-two,
+.design-three {
+  width: 200px;
+  height: 200px;
+  background: #243d83;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+}
+
+.design-one {
+  left: 100px;
+}
+
+.design-two {
+  left: -126px;
+}
+
+.design-three {
+  right: -126px;
+}
+
+.design-four {
+  width: 50px;
+  height: 30px;
+  background: #243d83;
+  position: absolute;
+  top: 135px;
+  left: 60px;
+  -webkit-box-reflect: right 175px;
+}
+
+.design-five,
+.design-six {
+  width: 35px;
+  height: 100px;
+  background: #6592cf;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.design-five {
+  top: 160px;
+  left: 70px;
+  -webkit-box-reflect: right 191px;
+}
+
+.design-six {
+  top: 40px;
+  left: 70px;
+  -webkit-box-reflect: right 191px;
+}
