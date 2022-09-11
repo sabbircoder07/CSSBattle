@@ -1,0 +1,143 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #5c434c;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one,
+.design-two,
+.design-three,
+.design-four,
+.design-five,
+.design-six,
+.design-seven,
+.design-eight,
+.design-nine,
+.design-ten,
+.design-eleven,
+.design-twelve {
+  border-radius: 50%;
+  transform: rotate(135deg);
+}
+
+.design-one {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.design-two {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 110px;
+  top: 10px;
+}
+
+.design-three {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 210px;
+  top: 10px;
+}
+.design-four {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 310px;
+  top: 10px;
+}
+.design-five {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 10px;
+  top: 110px;
+}
+
+.design-six {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 110px;
+  top: 110px;
+}
+
+.design-seven {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 210px;
+  top: 110px;
+}
+.design-eight {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 310px;
+  top: 110px;
+}
+
+.design-nine {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 10px;
+  top: 210px;
+}
+
+.design-ten {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 110px;
+  top: 210px;
+}
+
+.design-eleven {
+  border: 80px solid #f09462;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 210px;
+  top: 210px;
+}
+.design-twelve {
+  border: 80px solid #f5d6b4;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 310px;
+  top: 210px;
+}
