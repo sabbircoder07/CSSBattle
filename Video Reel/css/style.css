@@ -1,0 +1,70 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one,
+.design-five {
+  width: 10px;
+  height: 300px;
+  background: #5dbcf9;
+  position: absolute;
+}
+
+.design-one {
+  top: 0px;
+  left: 45px;
+  -webkit-box-reflect: right 140px;
+}
+
+.design-two,
+.design-six {
+  width: 45px;
+  height: 40px;
+  background: #5dbcf9;
+  position: absolute;
+}
+
+.design-two {
+  top: 80px;
+  left: 0px;
+  -webkit-box-reflect: below 110px;
+}
+
+.design-three,
+.design-four {
+  width: 140px;
+  height: 40px;
+  background: #5dbcf9;
+  position: absolute;
+}
+
+.design-three {
+  top: 30px;
+  left: 55px;
+  -webkit-box-reflect: below 110px;
+}
+
+.design-four {
+  top: 80px;
+  left: 205px;
+  -webkit-box-reflect: below 110px;
+}
+
+.design-five {
+  top: 0px;
+  left: 345px;
+}
+
+.design-six {
+  top: 30px;
+  right: 0px;
+  -webkit-box-reflect: below 110px;
+}
