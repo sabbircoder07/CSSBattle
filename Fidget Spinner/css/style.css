@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #09042a;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 60px;
+  height: 60px;
+  background: #09042a;
+  border: 10px solid #e78481;
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+  -webkit-box-reflect: right 40px;
+}
+.design-two {
+  width: 60px;
+  height: 80px;
+  background: #e78481;
+  position: absolute;
+
+  top: 110px;
+  left: 170px;
+}
+.design-three {
+  width: 60px;
+  height: 60px;
+  background: #f5bb9c;
+  border-radius: 50%;
+  position: absolute;
+  top: 67px;
+  left: 170px;
+  box-shadow: 0 0 0 10px #09042a;
+  -webkit-box-reflect: below 46px;
+}
