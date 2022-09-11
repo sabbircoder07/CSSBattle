@@ -1,0 +1,45 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #293462;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 200px;
+  height: 200px;
+  background: #fff1c1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  overflow: hidden;
+}
+
+.design-two {
+  height: 0px;
+  width: 0px;
+  border-top: 100px solid transparent;
+  border-left: 150px solid transparent;
+  border-right: 160px solid transparent;
+  border-bottom: 150px solid #fe5f55;
+  position: absolute;
+  top: -40px;
+  left: -10px;
+}
+.design-three {
+  height: 0px;
+  width: 0px;
+  border-top: 100px solid transparent;
+  border-left: 150px solid transparent;
+  border-right: 160px solid transparent;
+  border-bottom: 150px solid #fe5f55;
+  position: absolute;
+  top: 30px;
+  left: -120px;
+}
