@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #0b2429;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  height: 200px;
+  width: 200px;
+  background: #998235;
+  border-radius: 0 50% 0 50%;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  transform: rotate(135deg);
+}
+
+.design-two {
+  height: 180px;
+  width: 180px;
+  background-color: #0b2429;
+  border: 10px solid #998235;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.design-three {
+  height: 50px;
+  width: 50px;
+  background-color: #0b2429;
+  border: 45px solid #f3ac3c;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
