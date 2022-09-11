@@ -1,0 +1,59 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #293462;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 150px;
+  height: 100px;
+  background: radial-gradient(
+    circle at 50% -130px,
+    #fe5f55 200px,
+    #a64942 200px
+  );
+  border-radius: 110px;
+  position: absolute;
+  top: 110px;
+  left: 125px;
+}
+
+.design-two {
+  width: 50px;
+  height: 50px;
+  background: #fe5f55;
+  border-radius: 50%;
+  position: absolute;
+  top: 85px;
+  left: 140px;
+  -webkit-box-reflect: right 20px;
+}
+
+.design-three {
+  width: 10px;
+  height: 10px;
+  background: #293462;
+  border: 10px solid #fff1c1;
+  border-radius: 50%;
+  position: absolute;
+  top: 95px;
+  left: 150px;
+  -webkit-box-reflect: right 40px;
+}
+
+.design-four {
+  width: 10px;
+  height: 10px;
+  background: #293462;
+  border-radius: 50%;
+  position: absolute;
+  top: 160px;
+  left: 185px;
+  -webkit-box-reflect: right 10px;
+}
