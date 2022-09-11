@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #000000;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 300px;
+  height: 150px;
+  background: #e96a23;
+  position: absolute;
+  top: 75px;
+  left: 50px;
+}
+
+.design-two {
+  width: 50px;
+  height: 150px;
+  background: #ebae11;
+  position: absolute;
+  top: 75px;
+  left: 155px;
+  transform: skew(345deg);
+}
+
+.design-three {
+  width: 25px;
+  height: 150px;
+  background: #ebae11;
+  position: absolute;
+  top: 75px;
+  left: 220px;
+  transform: skew(345deg);
+}
+
+.design-four {
+  width: 250px;
+  height: 120px;
+  background: #000000;
+  border-radius: 20px;
+  position: absolute;
+  top: 90px;
+  left: 75px;
+}
+
+.design-five {
+  width: 20px;
+  height: 85px;
+  background: #000000;
+  border-radius: 20px;
+  position: absolute;
+  top: 108px;
+  left: 65px;
+  -webkit-box-reflect: right 230px;
+}
+
+.design-six {
+  width: 50px;
+  height: 50px;
+  background: #ebae11;
+  border-radius: 50%;
+  position: absolute;
+  top: 125px;
+  left: 175px;
+}
+
+.design-seven {
+  width: 120px;
+  height: 70px;
+  border: 5px solid #ebae11;
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  left: 135px;
+}
+
+.design-eight {
+  width: 200px;
+  height: 85px;
+  border: 5px solid #ebae11;
+  border-radius: 50%;
+  position: absolute;
+  top: 102px;
+  left: 95px;
+}
