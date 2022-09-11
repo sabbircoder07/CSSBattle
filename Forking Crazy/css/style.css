@@ -1,0 +1,81 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 140px;
+  height: 100px;
+  background: #060f55;
+  border-radius: 0px 0px 110px 110px;
+  position: absolute;
+  top: 150px;
+  left: 130px;
+}
+
+.design-two {
+  width: 20px;
+  height: 60px;
+  background: #060f55;
+  position: absolute;
+  top: 245px;
+  left: 190px;
+}
+
+.design-three,
+.design-five,
+.design-seven,
+.design-nine {
+  width: 20px;
+  height: 100px;
+  background: #060f55;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: 50px;
+}
+
+.design-three {
+  left: 130px;
+}
+
+.design-five {
+  left: 170px;
+}
+
+.design-seven {
+  left: 210px;
+}
+
+.design-nine {
+  left: 250px;
+}
+
+.design-four,
+.design-six,
+.design-eight {
+  width: 20px;
+  height: 10px;
+  background: #6592cf;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  top: 150px;
+}
+
+.design-four {
+  left: 150px;
+}
+
+.design-six {
+  left: 190px;
+}
+
+.design-eight {
+  left: 230px;
+}
