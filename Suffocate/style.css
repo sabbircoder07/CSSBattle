@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f3ac3c;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.design-two,
+.design-three,
+.design-four,
+.design-five {
+  width: 50%;
+  height: 50%;
+  background: #f3ac3c;
+}
+
+.design-two {
+  border-radius: 0 0 100px 0;
+}
+
+.design-three {
+  border-radius: 0 0 0 100px;
+}
+
+.design-four {
+  border-radius: 0 100px 0 0;
+}
+
+.design-five {
+  border-radius: 100px 0 0 0;
+}
