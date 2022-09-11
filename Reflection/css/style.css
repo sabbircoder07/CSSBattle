@@ -1,0 +1,63 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  height: 150px;
+  width: 400px;
+  background: #d25b70;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.design-two {
+  height: 150px;
+  width: 400px;
+  background: #6cb3a9;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+.design-three {
+  height: 200px;
+  width: 200px;
+  background: #f6df96;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  overflow: hidden;
+}
+
+.design-four,
+.design-five,
+.design-six {
+  height: 15px;
+  width: 400px;
+  background: #6cb3a9;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+  -webkit-box-reflect: below 10px;
+}
+
+.design-five {
+  left: 0px;
+  top: 175px;
+  -webkit-box-reflect: below 10px;
+}
+
+.design-six {
+  left: 0px;
+  top: 225px;
+}
