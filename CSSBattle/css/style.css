@@ -1,0 +1,159 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #14313e;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 0px;
+  height: 100px;
+  background: #14313e;
+  border-radius: 20px 0 0 20px;
+  border-left: 40px solid #ffdf00;
+  border-top: 25px solid #ffdf00;
+  border-bottom: 25px solid #ffdf00;
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  -webkit-box-reflect: right 194px;
+}
+
+.design-two {
+  width: 20px;
+  height: 100px;
+  background: #14313e;
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  top: 100px;
+  left: 88px;
+  -webkit-box-reflect: right 184px;
+}
+
+.design-three {
+  width: 20px;
+  height: 40px;
+  background: #ffdf00;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 130px;
+  left: 53px;
+  -webkit-box-reflect: right 254px;
+}
+
+.design-four {
+  width: 30px;
+  height: 160px;
+  background: #ffdf00;
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  transform: rotate(45deg);
+}
+
+.design-five {
+  width: 20px;
+  height: 50px;
+  background: #ffdf00;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  top: 178px;
+  left: 132px;
+  transform: rotate(45deg);
+}
+
+.design-six {
+  width: 20px;
+  height: 80px;
+  background: #ffdf00;
+  position: absolute;
+  top: 145px;
+  left: 150px;
+  transform: rotate(315deg);
+}
+
+.design-seven {
+  width: 35px;
+  height: 50px;
+  background: #14313e;
+  position: absolute;
+  top: 120px;
+  left: 183px;
+  transform: rotate(45deg);
+}
+
+.design-eight {
+  width: 30px;
+  height: 160px;
+  background: #ffdf00;
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  transform: rotate(315deg);
+}
+
+.design-nine {
+  width: 20px;
+  height: 50px;
+  background: #ffdf00;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  top: 178px;
+  left: 248px;
+  transform: rotate(315deg);
+}
+
+.design-ten {
+  width: 20px;
+  height: 80px;
+  background: #ffdf00;
+  position: absolute;
+  top: 145px;
+  left: 229px;
+  transform: rotate(45deg);
+}
+
+.design-eleven {
+  width: 50px;
+  height: 40px;
+  background: #14313e;
+  position: absolute;
+  top: 35px;
+  left: 230px;
+}
+
+.design-twelve {
+  width: 40px;
+  height: 20px;
+  background: #14313e;
+  position: absolute;
+  top: 76px;
+  left: 260px;
+  transform: rotate(280deg);
+}
+
+.design-thirten {
+  width: 40px;
+  height: 40px;
+  background: #14313e;
+  position: absolute;
+  top: 34px;
+  left: 126px;
+}
+
+.design-fortin {
+  width: 40px;
+  height: 16px;
+  background: #14313e;
+  position: absolute;
+  top: 71px;
+  left: 100px;
+  transform: rotate(262deg);
+}
