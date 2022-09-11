@@ -1,0 +1,68 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one {
+  width: 250px;
+  height: 100px;
+  background: #f2ad43;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+.design-two {
+  width: 80px;
+  height: 80px;
+  background: #191919;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 160px;
+}
+.design-three {
+  width: 20px;
+  height: 20px;
+  background: #f2ad43;
+  position: absolute;
+  top: 110px;
+  left: 190px;
+}
+
+.design-four {
+  width: 10px;
+  height: 10px;
+  background: #f2ad43;
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 185px;
+  -webkit-box-reflect: right 10px;
+}
+.design-five {
+  width: 100px;
+  height: 100px;
+  background: #191919;
+  border-radius: 0px 50px 50px 0px;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+  -webkit-box-reflect: right 150px;
+}
+.design-six {
+  width: 130px;
+  height: 100px;
+  background: #191919;
+  border-radius: 0px 65px 65px 0px;
+  position: absolute;
+  top: 160px;
+  left: 78px;
+  -webkit-box-reflect: right -18px;
+}
