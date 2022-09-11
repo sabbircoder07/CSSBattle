@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #6592cf;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  width: 110px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+div:before {
+  content: "";
+  border: 30px solid #243d83;
+  width: 300px;
+  height: 182px;
+  border-radius: 70px;
+  position: absolute;
+  top: 30px;
+  right: calc(50% - 15px);
+  -webkit-box-reflect: right -30px;
+}
