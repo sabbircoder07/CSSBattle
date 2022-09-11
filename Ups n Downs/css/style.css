@@ -1,0 +1,32 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #62306d;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.design-one,
+.design-two {
+  width: 100px;
+  height: 100px;
+  background: #f7ec7d;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+}
+
+.design-one {
+  left: 50px;
+  top: 150px;
+  -webkit-box-reflect: right 100px;
+}
+
+.design-two {
+  border-radius: 50% 50% 0 0;
+  left: 150px;
+  top: 50px;
+}
