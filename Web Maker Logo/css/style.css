@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contaniar {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2b6;
+}
+.trianlgle-logo-one {
+  border-top: 140px solid #fd4602;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: relative;
+  transform: translate(26px);
+}
+
+.trianlgle-logo-one::after {
+  content: "";
+  border-top: 140px solid #ff6d00;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: absolute;
+  top: -140px;
+  right: -60px;
+}
+
+.triangle-logo-two {
+  border-bottom: 140px solid #ff6d00;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: relative;
+  transform: translate(26px);
+}
+
+.triangle-logo-two::after {
+  content: "";
+  border-bottom: 140px solid #fd4602;
+  border-right: 75px solid transparent;
+  border-left: 75px solid transparent;
+  position: absolute;
+  top: 0px;
+  right: -60px;
+}
