@@ -1,0 +1,51 @@
+body {
+  background-color: #293462;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.mask-cord {
+  height: 40px;
+  width: 250px;
+  background: transparent;
+  border: 10px solid #fff1c1;
+  border-radius: 40px;
+  position: absolute;
+  top: 92px;
+  left: 58px;
+}
+
+.mask-mainpart {
+  width: 150px;
+  height: 90px;
+  background: #fff1c1;
+  border-radius: 0 0 40% 40%;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+}
+
+.mask-design-circle {
+  height: 40px;
+  width: 40px;
+  background: #fe5f55;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 89px;
+}
+
+.mask-design-bar {
+  height: 10px;
+  width: 39px;
+  background: #fe5f55;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  -webkit-box-reflect: below 10px;
+}
