@@ -1,0 +1,33 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.bar-one {
+  height: 40px;
+  width: 180px;
+  background-color: #a64942;
+  position: absolute;
+  border-radius: 0px 20px 20px 0px;
+  top: 130px;
+  left: 0px;
+  -webkit-box-reflect: right 40px;
+}
+
+.bar-two {
+  width: 40px;
+  height: 130px;
+  background-color: #fe5f55;
+  position: absolute;
+  border-radius: 0px 0px 20px 20px;
+  top: 0px;
+  left: 180px;
+  -webkit-box-reflect: below 40px;
+}
