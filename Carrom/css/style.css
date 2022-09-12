@@ -1,0 +1,24 @@
+body {
+  background-color: #62374e;
+}
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.boxelement {
+  height: 50px;
+  width: 50px;
+  background-color: #fdc57b;
+}
+.flex-box-one,
+.flex-box-two {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-box-one {
+  margin: 50px 58px 0px 42px;
+}
+.flex-box-two {
+  margin: 100px 58px 0px 42px;
+}
