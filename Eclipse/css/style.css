@@ -1,0 +1,39 @@
+body {
+  background-color: #f3ac3c;
+}
+.main-contaniar {
+  position: relative;
+}
+.circle-one {
+  height: 0px;
+  width: 0px;
+  border-top: 390px solid #998235;
+  border-right: 390px solid #998235;
+  border-radius: 50% 50% 0% 0%;
+  position: absolute;
+  top: 140px;
+  left: -3px;
+  z-index: 99;
+}
+
+.circle-two {
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+  border-radius: 50%;
+  border: 25px solid #f3ac3c;
+  position: absolute;
+  top: 16px;
+  left: 68px;
+}
+.circle-three {
+  height: 400px;
+  width: 400px;
+  background: #998235;
+  border-radius: 50%;
+  position: absolute;
+  top: -265px;
+  left: -10px;
+  overflow: hidden;
+  z-index: -1;
+}
