@@ -1,0 +1,28 @@
+body {
+  background: #222;
+}
+div {
+  margin: 85px 130px;
+  position: relative;
+}
+.logo-part-one {
+  height: 50px;
+  width: 70px;
+  border-top: 30px solid #f2994a;
+  border-left: 30px solid #f2994a;
+  border-radius: 10px 0px 0px 0px;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+.logo-part-two {
+  height: 70px;
+  width: 50px;
+  border-top: 30px solid #2d9cdb;
+  border-right: 30px solid #2d9cdb;
+  border-radius: 0px 10px 0px 10px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 10px;
+  left: -38px;
+}
