@@ -1,0 +1,62 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191210;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 100px;
+  height: 100px;
+  background: #191210;
+  border: 20px solid #eca03d;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+
+.middle-cercle {
+  width: 50px;
+  height: 50px;
+  background: #84271c;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.design-one,
+.design-two {
+  width: 60px;
+  height: 60px;
+  background: #191210;
+  border-bottom: 20px solid #eca03d;
+  border-left: 20px solid #eca03d;
+  border-top: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -0px;
+  z-index: -1;
+}
+
+.design-one {
+  transform: rotate(315deg);
+  left: -100px;
+}
+
+.design-two {
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #eca03d;
+  border-right: 20px solid #eca03d;
+  transform: rotate(315deg);
+  top: 0px;
+  left: 100px;
+}
