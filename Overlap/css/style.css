@@ -1,0 +1,29 @@
+body {
+  background: #09042a;
+}
+.main {
+  max-width: 400px;
+  max-height: 300px;
+}
+div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 75px;
+}
+.circle-left {
+  background: #7b3f61;
+  left: 75px;
+}
+.circle-right {
+  background: #e78481;
+  overflow: hidden;
+  right: 75px;
+}
+.inner-cercle {
+  background: #09042a;
+  position: relative;
+  left: -100px;
+  top: 0px;
+}
