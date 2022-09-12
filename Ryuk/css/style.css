@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bac7ce;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.reactangle {
+  border-top: 100px solid #475862;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  position: absolute;
+  left: 100px;
+  top: -9px;
+}
+
+.eyes-cercle {
+  height: 100px;
+  width: 100px;
+  background-color: #868a64;
+  border: 10px solid #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  -webkit-box-reflect: right 100px;
+}
+
+.eyes-half-shadow {
+  height: 100px;
+  width: 100px;
+  box-shadow: -15px 0px 0 0px #5a6042;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(89deg);
+  top: 15px;
+  left: 0px;
+}
+
+.middle-cercle {
+  height: 30px;
+  width: 30px;
+  background: #4e2b24;
+  border: 5px solid #000000;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.eyes-cercle-one-part {
+  height: 120px;
+  width: 120px;
+  background: #000000;
+  border-radius: 0 50% 0 50%;
+  position: absolute;
+  left: 30px;
+  top: 130px;
+  z-index: -1;
+  transform: rotate(345deg);
+}
+
+.eyes-cercle-two-part {
+  height: 120px;
+  width: 120px;
+  background: #000000;
+  border-radius: 0 50% 0 50%;
+  position: absolute;
+  left: 250px;
+  top: 130px;
+  z-index: -2;
+  transform: rotate(105deg);
+}
