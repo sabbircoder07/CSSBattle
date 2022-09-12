@@ -1,0 +1,53 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f7f3da;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.bar-one {
+  width: 200px;
+  height: 80px;
+  background: #d25b70;
+  border-radius: 0 10px 0px 0px;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+}
+
+.bar-two {
+  width: 200px;
+  height: 80px;
+  background: #d25b70;
+  border-radius: 0 0px 0px 10px;
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+
+.bar-one::after {
+  content: "";
+  width: 200px;
+  height: 40px;
+  border-radius: 0 20px 0px 0px;
+  background: #f7f3da;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+}
+
+.bar-two::before {
+  content: "";
+  width: 200px;
+  height: 40px;
+  border-radius: 0px 0px 0px 20px;
+  background: #f7f3da;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
