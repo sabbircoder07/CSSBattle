@@ -1,0 +1,71 @@
+body {
+  background-color: #f3ac3c;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-circles {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-bottom: 30px solid #998235;
+  border-left: 30px solid #998235;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 62px;
+  left: 110px;
+}
+
+.center-daimond {
+  width: 30px;
+  height: 30px;
+  background-color: #1a4341;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.part-one-daimond {
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border-bottom: 30px solid #998235;
+  border-left: 30px solid #998235;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -30px;
+  left: 65px;
+}
+
+.part-two-daimond {
+  height: 40px;
+  width: 35px;
+  background-color: transparent;
+  border-bottom: 30px solid #998235;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.part-three-daimond {
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  border-left: 30px solid #998235;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 65px;
+  left: 35px;
+}
