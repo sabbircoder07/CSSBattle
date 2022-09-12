@@ -1,0 +1,32 @@
+body {
+  background: #19191a;
+}
+div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #4f77ff;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+
+:before {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 125px;
+  right: 50%;
+}
+
+div:before {
+  background: #9ad5ff;
+  top: 50%;
+}
+
+body:before {
+  background: #f9e492;
+  top: 125px;
+}
