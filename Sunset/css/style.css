@@ -1,0 +1,54 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 150px;
+  height: 200px;
+  background: #f2ad43;
+  border-radius: 75px 75px 20px 20px;
+  position: absolute;
+  top: 50px;
+  left: 125px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.half-cercle-one {
+  height: 150px;
+  width: 150px;
+  background: #e08027;
+  border-radius: 50%;
+  position: absolute;
+  top: 102px;
+  left: -65px;
+}
+
+.half-cercle-two {
+  height: 175px;
+  width: 175px;
+  background: #824b20;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 55px;
+}
+
+.sun {
+  height: 60px;
+  width: 60px;
+  background: #fff58f;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 45px;
+  z-index: -2;
+}
