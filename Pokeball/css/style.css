@@ -1,0 +1,42 @@
+body {
+  background-color: #6cb3a9;
+}
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.circle-one {
+  width: 50px;
+  height: 50px;
+  background-color: #f6df96;
+  border: 65px solid #781728;
+  border-radius: 50%;
+  position: absolute;
+  top: 52px;
+  left: 102px;
+}
+.circle-two {
+  width: 65px;
+  height: 65px;
+  background-color: transparent;
+  border: 65px solid;
+  border-color: #d25b70 #d25b70 transparent transparent;
+  border-radius: 50%;
+  transform: rotate(315deg);
+  position: absolute;
+  top: 40px;
+  left: 94px;
+}
+.circle-three {
+  width: 65px;
+  height: 65px;
+  background-color: transparent;
+  border: 65px solid;
+  border-color: transparent transparent #ffffff #ffffff;
+  border-radius: 50%;
+  transform: rotate(315deg);
+  position: absolute;
+  top: 50px;
+  left: 94px;
+}
