@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 300px;
+  background: #aa445f;
+}
+.first-cercle {
+  width: 100px;
+  height: 200px;
+  background: #ffbf00;
+  border-radius: 100px 0 0 100px;
+  border: 10px solid #ffbf00;
+  border-bottom: 0;
+  float: left;
+  margin-top: 50px;
+  margin-left: 40%;
+  box-sizing: border-box;
+}
+.second-cercle {
+  width: 100px;
+  height: 200px;
+  background: #6495ed;
+  border-radius: 0 100px 100px 0;
+  border: 10px solid #6495ed;
+  border-bottom: 0;
+  float: right;
+  margin-top: 50px;
+  margin-right: 40%;
+  box-sizing: border-box;
+}
