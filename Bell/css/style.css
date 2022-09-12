@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-scture {
+  height: 120px;
+  width: 120px;
+  background-color: #e08027;
+  border-radius: 60px 60px 10px 10px;
+  position: absolute;
+  top: 90px;
+  left: 140px;
+}
+
+.part-one,
+.part-two {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.part-one {
+  background-color: #f2ad43;
+  position: relative;
+  top: -25px;
+  left: 35px;
+}
+
+.part-two {
+  background-color: #824b20;
+  position: relative;
+  top: 45px;
+  left: 35px;
+}
