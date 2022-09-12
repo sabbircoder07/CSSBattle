@@ -1,0 +1,38 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #6592cf;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 250px;
+  height: 250px;
+  background-color: #243d83;
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+.design-one {
+  width: 150px;
+  height: 150px;
+  background-color: #6592cf;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: rotate(285deg);
+}
+.design-two {
+  width: 73px;
+  height: 73px;
+  background-color: #243d83;
+  position: absolute;
+  top: 89px;
+  left: 89px;
+  transform: rotate(300deg);
+}
