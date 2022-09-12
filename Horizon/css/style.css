@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-contaniar {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.color-one {
+  width: 400px;
+  height: 50px;
+  background-color: #f7ec7d;
+}
+.color-two {
+  width: 400px;
+  height: 50px;
+  background-color: #e38f66;
+}
+.color-three {
+  width: 400px;
+  height: 150px;
+  background-color: #aa445f;
+}
+.color-four {
+  width: 400px;
+  height: 150px;
+  background-color: #62306d;
+}
