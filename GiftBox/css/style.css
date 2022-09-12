@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ac474b;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+}
+
+.flex-box-one,
+.flex-box-two {
+  display: flex;
+  gap: 20px;
+}
+
+.boxelement {
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.flex-box-one {
+  margin: 110px 0px 20px 130px;
+}
+
+.flex-box-two {
+  margin: 20px 0px 20px 130px;
+}
+
+.gift-design {
+  position: relative;
+}
+
+.gift-design-part-one {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: 10px solid #ffffff;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  top: -60px;
+  left: 200px;
+}
+
+.gift-design-part-two {
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: 10px solid #ffffff;
+  border-radius: 50% 50% 0% 50%;
+  position: absolute;
+  top: -60px;
+  left: 165px;
+}
