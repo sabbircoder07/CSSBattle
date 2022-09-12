@@ -1,0 +1,41 @@
+body {
+  background-color: #191919;
+}
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+.main-cercle {
+  width: 100px;
+  height: 100px;
+  background-color: #e08027;
+  border: 30px solid #824b20;
+  border-radius: 50%;
+  position: absolute;
+  top: 62px;
+  left: 112px;
+}
+.circle-two {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border: 20px solid;
+  border-color: transparent transparent #fff58f #fff58f;
+  border-radius: 50%;
+  transform: rotate(315deg);
+  position: absolute;
+  top: 84px;
+  left: 131px;
+}
+.circle-two-corner {
+  width: 20px;
+  height: 20px;
+  background: #fff58f;
+  border-radius: 50% 50% 0 0;
+  transform: rotate(44deg);
+  -webkit-box-reflect: right 80px;
+  position: absolute;
+  left: 0px;
+  top: -11px;
+}
