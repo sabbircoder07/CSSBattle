@@ -1,0 +1,30 @@
+body {
+  background: #6592cf;
+}
+div {
+  margin: 75px 41px;
+  width: 300px;
+  height: 150px;
+  background: #243d83;
+}
+span,
+a {
+  display: block;
+  position: relative;
+  border-radius: 100%;
+}
+span {
+  top: -50px;
+  left: 25px;
+  background: #243d83;
+  width: 150px;
+  height: 150px;
+  border: 50px solid #6592cf;
+}
+a {
+  background: #eeb850;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 51px;
+}
