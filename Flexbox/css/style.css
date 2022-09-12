@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: thistle;
+  padding: 20px;
+  border: 1px solid thistle;
+  border-radius: 5px;
+}
+.element-1 {
+  background-color: blueviolet;
+}
+.element-2 {
+  background-color: orangered;
+}
+.element-3 {
+  background-color: green;
+}
+.element-4 {
+  background-color: goldenrod;
+}
+.element-5 {
+  background-color: palevioletred;
+}
+.element-6 {
+  background-color: steelblue;
+}
+.element-7 {
+  background-color: yellow;
+}
+.element-8 {
+  background-color: crimson;
+}
+.container {
+  font-size: 40px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.container div {
+  margin: 10px;
+  padding: 50px;
+  border: 1px solid #de3163;
+  border-radius: 5px;
+}
+.container div:hover {
+  cursor: pointer;
+  background: linear-gradient(145deg, #de3163, #ffffff);
+  box-shadow: 5px 5px 5px 5px rgba(222, 49, 99);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
