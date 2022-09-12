@@ -1,0 +1,29 @@
+body {
+  background: #d25b70;
+}
+div {
+  margin: 150px 142px;
+  height: 100px;
+  width: 100px;
+  background: #f7f3da;
+  position: relative;
+}
+
+.small-box {
+  height: 60px;
+  width: 60px;
+  background: #6cb3a9;
+  position: absolute;
+  left: -35px;
+  top: -73px;
+  transform: rotate(38deg);
+}
+.big-box {
+  height: 80px;
+  width: 80px;
+  background: #f6df96;
+  position: absolute;
+  top: -96px;
+  left: 52px;
+  transform: rotate(38deg);
+}
