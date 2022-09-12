@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 110px;
+  height: 10px;
+  background: #5dbcf9;
+  position: absolute;
+  top: 224px;
+  left: 145px;
+}
+
+.design-one {
+  width: 200px;
+  height: 10px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -20px;
+  left: -45px;
+}
+
+.design-two {
+  width: 10px;
+  height: 60px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -90px;
+  left: 50px;
+}
+
+.design-three {
+  width: 10px;
+  height: 90px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -116px;
+  left: 87px;
+  transform: rotate(298deg);
+}
+
+.design-four {
+  width: 10px;
+  height: 90px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -115px;
+  left: 13px;
+  transform: rotate(240deg);
+}
+
+.design-five {
+  width: 10px;
+  height: 25px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -51px;
+  left: -16px;
+  transform: skew(31deg);
+}
+
+.design-six {
+  width: 10px;
+  height: 25px;
+  background: #5dbcf9;
+  position: absolute;
+  top: -54px;
+  left: 120px;
+  transform: skew(338deg);
+}
+
+.design-seven {
+  width: 80px;
+  height: 45px;
+  border: 10px solid #5dbcf9;
+  border-bottom-color: transparent;
+  position: absolute;
+  top: -130px;
+  left: 6px;
+}
+
+.design-eight {
+  width: 30px;
+  height: 20px;
+  border: 10px solid #5dbcf9;
+  border-bottom-color: transparent;
+  position: absolute;
+  top: -160px;
+  left: 30px;
+}
