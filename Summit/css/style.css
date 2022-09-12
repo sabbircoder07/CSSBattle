@@ -1,0 +1,26 @@
+body {
+  background-color: #191919;
+}
+.main-contaniar {
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+.triangle {
+  height: 0px;
+  width: 0px;
+  border-bottom: 150px solid #4f77ff;
+  border-right: 140px solid transparent;
+  border-left: 140px solid transparent;
+  position: relative;
+}
+.circle {
+  height: 0px;
+  width: 0px;
+  border: 100px solid;
+  border-color: #f9e492 #f9e492 #191919 #f9e492;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
