@@ -1,0 +1,31 @@
+body {
+  background: #007065;
+}
+div {
+  margin: 50px 67px;
+  position: relative;
+}
+.tree-one,
+.tree-two,
+.tree-three {
+  height: 0px;
+  width: 0px;
+  border-top: 0px solid transparent;
+  border-left: 127px solid transparent;
+  border-right: 120px solid transparent;
+  position: absolute;
+}
+.tree-one {
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid #00a79d;
+}
+.tree-two {
+  border-bottom: 100px solid #f5c181;
+  top: -50px;
+  left: -126px;
+}
+.tree-three {
+  border-bottom: 100px solid #ffeecf;
+  top: -100px;
+  left: -126px;
+}
