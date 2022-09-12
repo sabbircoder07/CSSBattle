@@ -1,0 +1,51 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191919;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-scture {
+  height: 150px;
+  width: 100px;
+  background-color: #4f77ff;
+  position: absolute;
+  border-radius: 60px 60px 0px 0px;
+  top: 75px;
+  left: 150px;
+}
+
+.step-one,
+.step-two,
+.step-three,
+.step-four {
+  height: 20px;
+  width: 80px;
+  background-color: #191919;
+  position: absolute;
+}
+
+.step-one {
+  top: 130px;
+  left: 20px;
+}
+
+.step-two {
+  top: 106px;
+  left: 40px;
+}
+
+.step-three {
+  top: 82px;
+  left: 60px;
+}
+
+.step-four {
+  top: 58px;
+  left: 80px;
+}
