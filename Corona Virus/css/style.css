@@ -1,0 +1,106 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #1a4341;
+}
+
+.main-contaniar {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+.main-part {
+  width: 100px;
+  height: 100px;
+  background: #f2ad43;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.cercle-one,
+.cercle-two,
+.cercle-three {
+  background: #998235;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cercle-one {
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  left: 20px;
+}
+
+.cercle-two {
+  width: 20px;
+  height: 20px;
+  top: 65px;
+  left: 40px;
+}
+
+.cercle-three {
+  width: 10px;
+  height: 10px;
+  top: 20px;
+  left: 70px;
+}
+
+.bar-one,
+.bar-two,
+.bar-three {
+  width: 10px;
+  height: 50px;
+  background: #f2ad43;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+}
+
+.bar-one {
+  top: -50px;
+  left: 45px;
+}
+
+.bar-two {
+  top: -13px;
+  left: 109px;
+  transform: rotate(60deg);
+}
+
+.bar-three {
+  height: 60px;
+  top: 55px;
+  left: 105px;
+  transform: rotate(120deg);
+}
+
+.bar-four,
+.bar-five,
+.bar-six {
+  width: 10px;
+  height: 30px;
+  background: #f2ad43;
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+}
+
+.bar-four {
+  top: 99px;
+  left: 45px;
+  transform: rotate(181deg);
+}
+
+.bar-five {
+  top: 68px;
+  left: -11px;
+  transform: rotate(240deg);
+}
+
+.bar-six {
+  top: 3px;
+  left: -10px;
+  transform: rotate(305deg);
+}
